@@ -3,6 +3,7 @@ import proj2 from './assets/Project2.png';
 import proj3 from './assets/Project3.png';
 
 
+
 export default function Project() {
     return (
       <>

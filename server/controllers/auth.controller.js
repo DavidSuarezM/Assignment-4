@@ -10,14 +10,21 @@ const signin = async (req, res) => {
     if (!user.authenticate(req.body.password)) {
       return res.status(401).send({ error: "Email and password don't match." })
     }
-    const token = jwt.sign({ _id: user._id }, config.jwtSecret)
+    const token = jwt.sign({
+      _id: user._id,
+      name: user.name,
+      email: user.email,
+      admin: user.admin
+    }, config.jwtSecret)
     res.cookie('t', token, { expire: new Date() + 9999 })
     return res.json({
       token,
       user: {
         _id: user._id,
         name: user.name,
-        email: user.email
+        email: user.email,
+        admin: user.admin
+
       }
     })
   } catch (err) {
@@ -36,6 +43,12 @@ const requireSignin = expressjwt({
   userProperty: 'auth'
 })
 
+const isAdmin = (req, res, next) => {
+  if (!req.auth.admin) {
+    return res.status(403).json({ error: "Admin only. Access denied." });
+  }
+  next();
+};
 
 const hasAuthorization = (req, res, next) => {
   const authorized = req.profile && req.auth && req.profile._id == req.auth._id
@@ -47,5 +60,5 @@ const hasAuthorization = (req, res, next) => {
   next()
 }
 
-export default { signin, signout, requireSignin, hasAuthorization }
+export default { signin, signout, requireSignin, hasAuthorization, isAdmin }
 

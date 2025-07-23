@@ -72,4 +72,6 @@ const remove = async (req, res) => {
         })
     }
 }
+
+
 export default { create, userByID, read, list, remove, update }
