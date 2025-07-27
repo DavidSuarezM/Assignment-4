@@ -1,0 +1,628 @@
+{
+    "title": "SignUpTest",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1130,
+            "height": 792,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:5173/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:5173/",
+                    "title": "Vite + React"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(9) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[9]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(9) > button"
+                ],
+                [
+                    "aria/SIGN UP[role=\"button\"]"
+                ],
+                [
+                    "text/Sign up"
+                ]
+            ],
+            "offsetY": 18.25384521484375,
+            "offsetX": 28.08990478515625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name"
+                ]
+            ],
+            "offsetY": 23.25933837890625,
+            "offsetX": 60.65899658203125
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "D",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "user8",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "user8",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "q"
+        },
+        {
+            "type": "keyUp",
+            "key": "q",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "Alt",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "user8@gmail.com",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "user88",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) button"
+                ],
+                [
+                    "aria/SUBMIT"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 8.37060546875,
+            "offsetX": 46.28948974609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiDialog-root button"
+                ],
+                [
+                    "xpath//html/body/div[2]/div[3]/div/div[2]/a/button"
+                ],
+                [
+                    "pierce/div.MuiDialog-root button"
+                ],
+                [
+                    "aria/[role=\"dialog\"]",
+                    "aria/[role=\"button\"]"
+                ]
+            ],
+            "offsetY": 22.201751708984375,
+            "offsetX": 51.359130859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "offsetY": 26.0570068359375,
+            "offsetX": 113.64913940429688
+        },
+        {
+            "type": "change",
+            "value": "user8@gmail.com",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "offsetY": 38.09539794921875,
+            "offsetX": 88.64913940429688
+        },
+        {
+            "type": "change",
+            "value": "user88",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiPaper-rounded button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/button"
+                ],
+                [
+                    "pierce/div.MuiPaper-rounded button"
+                ],
+                [
+                    "aria/SUBMIT"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 22.14312744140625,
+            "offsetX": 21.28948974609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(12) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[12]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(12) > button"
+                ],
+                [
+                    "aria/MY PROFILE[role=\"button\"]"
+                ],
+                [
+                    "text/My Profile"
+                ]
+            ],
+            "offsetY": 36.49342346191406,
+            "offsetX": 37.742919921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a path"
+                ],
+                [
+                    "xpath///*[@data-testid=\"EditIcon\"]/path"
+                ],
+                [
+                    "pierce/a path"
+                ],
+                [
+                    "aria/Edit[role=\"button\"]",
+                    "aria/[role=\"graphics-symbol\"]"
+                ]
+            ],
+            "offsetY": 9.070770263671875,
+            "offsetX": 4.61468505859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/label/span[1]/span[1]/input"
+                ],
+                [
+                    "pierce/label input"
+                ],
+                [
+                    "aria/Inactive"
+                ]
+            ],
+            "offsetY": 24.18914794921875,
+            "offsetX": 67.75384521484375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiPaper-rounded button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/button"
+                ],
+                [
+                    "pierce/div.MuiPaper-rounded button"
+                ],
+                [
+                    "aria/SUBMIT"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 14.2099609375,
+            "offsetX": 43.74560546875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(9) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[9]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(9) > button"
+                ],
+                [
+                    "aria/VIEW PROJECTS[role=\"button\"]"
+                ],
+                [
+                    "text/View Projects"
+                ]
+            ],
+            "offsetY": 38.49342346191406,
+            "offsetX": 46.6951904296875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(10) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[10]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(10) > button"
+                ],
+                [
+                    "aria/VIEW CONTACTS[role=\"button\"]"
+                ],
+                [
+                    "text/View Contacts"
+                ]
+            ],
+            "offsetY": 36.49342346191406,
+            "offsetX": 66.85418701171875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(11) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[11]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(11) > button"
+                ],
+                [
+                    "aria/VIEW EDUCATION[role=\"button\"]"
+                ],
+                [
+                    "text/View Education"
+                ]
+            ],
+            "offsetY": 38.49342346191406,
+            "offsetX": 58.72479248046875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(12) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[12]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(12) > button"
+                ],
+                [
+                    "aria/MY PROFILE[role=\"button\"]"
+                ],
+                [
+                    "text/My Profile"
+                ]
+            ],
+            "offsetY": 43.49342346191406,
+            "offsetX": 26.742919921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-testid='EditIcon']"
+                ],
+                [
+                    "xpath///*[@data-testid=\"EditIcon\"]"
+                ],
+                [
+                    "pierce/[data-testid='EditIcon']"
+                ]
+            ],
+            "offsetY": 16.068267822265625,
+            "offsetX": 17.61456298828125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "label input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[1]/label/span[1]/span[1]/input"
+                ],
+                [
+                    "pierce/label input"
+                ],
+                [
+                    "aria/Active"
+                ]
+            ],
+            "offsetY": 16.18914794921875,
+            "offsetX": 54.819091796875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiPaper-rounded button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div[2]/button"
+                ],
+                [
+                    "pierce/div.MuiPaper-rounded button"
+                ],
+                [
+                    "aria/SUBMIT"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 10.2099609375,
+            "offsetX": 43.74560546875
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        }
+    ]
+}

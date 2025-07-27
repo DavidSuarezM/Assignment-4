@@ -6,9 +6,10 @@ import IconButton from "@mui/material/IconButton";
 import HomeIcon from "@mui/icons-material/Home";
 import Button from "@mui/material/Button";
 import auth from "../user/auth-helper";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Link, Outlet, useNavigate, useLocation } from "react-router-dom";
 import Box from "@mui/material/Box";
 import logo from '../src/assets/dsLogo.png';
+
 
 const isActive = (location, path) =>
   location.pathname === path ? "#ff4081" : "#ffffff";
@@ -155,6 +156,9 @@ export default function Menu() {
           }
         </Toolbar >
       </AppBar >
+      <Box sx={{ p: 3 }}>
+        <Outlet />
+      </Box>
     </>
-  );
+  )
 }

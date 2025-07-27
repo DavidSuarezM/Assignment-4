@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 a {
@@ -23,8 +24,14 @@ a:hover {
 }
 
 body {
-  margin: auto;
-  width:980px;
+  margin: 0;
+  width: 100%;
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 h1 {

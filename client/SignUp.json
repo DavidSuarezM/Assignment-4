@@ -1,0 +1,275 @@
+{
+    "title": "SignUp",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1130,
+            "height": 792,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:5173/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:5173/",
+                    "title": "Vite + React"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(2) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[2]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > button"
+                ],
+                [
+                    "aria/ABOUT[role=\"button\"]"
+                ],
+                [
+                    "text/About"
+                ]
+            ],
+            "offsetY": 24.25384521484375,
+            "offsetX": 28.47314453125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(3) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[3]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(3) > button"
+                ],
+                [
+                    "aria/SERVICES[role=\"button\"]"
+                ],
+                [
+                    "text/Services"
+                ]
+            ],
+            "offsetY": 25.25384521484375,
+            "offsetX": 50.263702392578125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(9) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[9]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(9) > button"
+                ],
+                [
+                    "aria/SIGN UP[role=\"button\"]"
+                ],
+                [
+                    "text/Sign up"
+                ]
+            ],
+            "offsetY": 16.25384521484375,
+            "offsetX": 31.08990478515625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name"
+                ]
+            ],
+            "offsetY": 24.25933837890625,
+            "offsetX": 143.65899658203125
+        },
+        {
+            "type": "change",
+            "value": "user9",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "user9",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "q"
+        },
+        {
+            "type": "keyUp",
+            "key": "q",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "Alt",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "user9@gmail.com",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "user99",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[3]/div/div[2]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) button"
+                ],
+                [
+                    "aria/SUBMIT"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 23.37060546875,
+            "offsetX": 53.28948974609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.MuiDialog-root button"
+                ],
+                [
+                    "xpath//html/body/div[2]/div[3]/div/div[2]/a/button"
+                ],
+                [
+                    "pierce/div.MuiDialog-root button"
+                ],
+                [
+                    "aria/[role=\"dialog\"]",
+                    "aria/[role=\"button\"]"
+                ]
+            ],
+            "offsetY": 24.201751708984375,
+            "offsetX": 40.359130859375
+        }
+    ]
+}

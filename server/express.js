@@ -9,11 +9,14 @@ import projectRoutes from './routes/project.routes.js'
 import educationRoutes from './routes/education.routes.js'
 import contactRoutes from './routes/contact.routes.js'
 import authRoutes from './routes/auth.routes.js'
+import path from "path";
+
 
 
 
 const app = express()
-
+const CURRENT_WORKING_DIR = process.cwd();
+app.use(express.static(path.join(CURRENT_WORKING_DIR, "dist/app")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/', userRoutes)
