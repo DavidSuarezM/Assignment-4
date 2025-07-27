@@ -13,6 +13,8 @@
     "cypress:headless": "cypress run"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "link-react": "^3.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
