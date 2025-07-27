@@ -24,7 +24,7 @@ server:{
 },
  build: {
     emptyOutDir: true,
-    outDir: '../dist/app',
+    outDir: 'dist',
   },
 
 });
